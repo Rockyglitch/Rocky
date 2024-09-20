@@ -1,0 +1,448 @@
+--------- beginning of main
+09-20 11:01:13.529  8698  8698 I libc    : SetHeapTaggingLevel: tag level set to 0
+09-20 11:01:13.541  8698  8698 E kar.cheats:gbox: Unknown bits set in runtime_flags: 0x40000000
+09-20 11:01:13.541  8698  8698 I kar.cheats:gbox: Using CollectorTypeCC GC.
+09-20 11:01:13.547  8698  8698 E kar.cheats:gbox: Not starting debugger since process cannot load the jdwp agent.
+09-20 11:01:13.562  8698  8698 W ziparchive: Unable to open '/system_ext/framework/mediatek-framework.dm': No such file or directory
+09-20 11:01:13.562  8698  8698 W ziparchive: Unable to open '/system_ext/framework/mediatek-framework.dm': No such file or directory
+09-20 11:01:13.573  8698  8698 D OplusActivityThreadExtImpl: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.SupressionGC [int, int]
+09-20 11:01:13.574  8698  8698 I OneTrace: Mark active for pid=8698? true
+09-20 11:01:13.575  8698  8698 D cutils-dev: otrace_set_tracing_enabled? true tag:0
+09-20 11:01:13.575  8698  8718 D cutils-dev: properties changed in otrace_seq_number_changed!
+09-20 11:01:13.580  8698  8718 E kar.cheats:gbox: Could not write anonymous vdex /system_ext/framework/oat/arm64/mediatek-framework.vdex: Could not open /system_ext/framework/oat/arm64/mediatek-framework.vdex for writing
+09-20 11:01:13.588  8698  8715 D OplusAppHeapManager: java.lang.NoSuchMethodException: dalvik.system.VMRuntime.updateProcessValue [int, int, int]
+09-20 11:01:13.588  8717  8717 W libprocessgroup: Controller io is not found
+09-20 11:01:13.588  8717  8717 W libprocessgroup: Controller io is not found
+09-20 11:01:13.588  8717  8717 W libprocessgroup: Controller io is not found
+09-20 11:01:13.589  8698  8715 D CompatibilityInfo: setOverrideInvertedScale  1.0 to 1.0
+09-20 11:01:13.589  8698  8698 D OplusActivityManager: get AMS extension: android.os.BinderProxy@9fa301b
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.590  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.591  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: BfqWeight
+09-20 11:01:13.591  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqGroupIdle
+09-20 11:01:13.591  8717  8717 W libprocessgroup: SetAttribute: unknown attribute: CfqWeight
+09-20 11:01:13.593  8698  8698 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:13.594  8698  8698 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10326; state: DISABLED
+09-20 11:01:13.604  8698  8698 I OplusFeatureCache: Milliseconds spent on init(): 10
+09-20 11:01:13.605  8698  8698 D CompactWindowAppManager: initCompactApplicationInfo CompactMode: , NormalMode: 
+09-20 11:01:13.608  8698  8698 D OplusScrollToTopManager: setIsInWhiteList false
+09-20 11:01:13.608  8698  8698 D OplusViewDebugManager: OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@881b2f7 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS false]
+09-20 11:01:13.609  8698  8698 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10326; state: DISABLED
+09-20 11:01:13.612  8698  8698 W libc    : Access denied finding property "ro.odm.prev.product.name"
+09-20 11:01:13.613  8698  8698 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+09-20 11:01:13.618  8698  8698 D nativeloader: Configuring clns-4 for other apk /data/app/~~stGGsD_JK1JzfE7FWMmIIg==/com.sarkar.cheats-cc-sEzoLUWsDJMCmlFFU7Q==/base.apk. target_sdk_version=29, uses_libraries=, library_path=/data/app/~~stGGsD_JK1JzfE7FWMmIIg==/com.sarkar.cheats-cc-sEzoLUWsDJMCmlFFU7Q==/lib/arm64:/data/app/~~stGGsD_JK1JzfE7FWMmIIg==/com.sarkar.cheats-cc-sEzoLUWsDJMCmlFFU7Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.sarkar.cheats
+09-20 11:01:13.618  8698  8698 D nativeloader: Extending system_exposed_libraries: libapuwareapusys.mtk.so:libapuwareapusys_v2.mtk.so:libapuwarexrp.mtk.so:libapuwarexrp_v2.mtk.so:libapuwareutils.mtk.so:libapuwareutils_v2.mtk.so:libapuwarehmp.mtk.so:libmcv_runtime_usdk.mtk.so:libneuron_graph_delegate.mtk.so:libneuronusdk_adapter.mtk.so:libtflite_mtk.mtk.so:libarmnn_ndk.mtk.so:libcmdl_ndk.mtk.so:libnir_neon_driver_ndk.mtk.so:libmvpu_runtime.mtk.so:libmvpu_runtime_pub.mtk.so:libmvpu_engine_pub.mtk.so:libmvpu_pattern_pub.mtk.so:libmvpuop_mtk_cv.mtk.so:libmvpuop_mtk_nn.mtk.so:libmvpu_runtime_25.mtk.so:libmvpu_runtime_25_pub.mtk.so:libmvpu_engine_25_pub.mtk.so:libmvpu_pattern_25_pub.mtk.so:libmvpuop25_mtk_cv.mtk.so:libmvpuop25_mtk_nn.mtk.so:libaol_jni.oplus.so:libSloganJni.oplus.so:libsuperNight.oplus.so:libAPSClient-cmd-jni-extension.oplus.so
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment: Currently set values for:
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment: ANGLE GameManagerService for com.sarkar.cheats: false
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment: com.sarkar.cheats is not listed in per-application setting
+09-20 11:01:13.631  8698  8698 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+09-20 11:01:13.682  8698  8698 D HookManager: hook: com.gbox.fake.service.IPackageManagerProxy@adc45bc
+09-20 11:01:13.685  8698  8698 D HookManager: hook: com.gbox.fake.service.ILocationManagerProxy@2383bfd
+09-20 11:01:13.687  8698  8698 D HookManager: hook: com.gbox.fake.service.IVibratorServiceProxy@f0d0a3e
+09-20 11:01:13.688  8698  8698 D HookManager: hook: com.gbox.fake.service.ISubProxy@9a577bb
+09-20 11:01:13.689  8698  8698 D HookManager: hook: com.gbox.fake.service.IActivityClientProxy@95fb684
+09-20 11:01:13.692  8698  8698 D HookManager: hook: com.gbox.fake.service.IShortcutManagerProxy@dd0ae25
+09-20 11:01:13.693  8698  8698 D HookManager: hook: com.gbox.fake.service.IAppOpsManagerProxy@5a37dc6
+09-20 11:01:13.695  8698  8698 D HookManager: hook: com.gbox.fake.service.IFingerprintManagerProxy@8a409d9
+09-20 11:01:13.696  8698  8698 D HookManager: hook: com.gbox.fake.service.IAlarmManagerProxy@3fef7aa
+09-20 11:01:13.697  8698  8698 D HookManager: hook: com.gbox.fake.service.context.RestrictionsManagerProxy@6fd6a77
+09-20 11:01:13.699  8698  8698 D HookManager: hook: com.gbox.fake.service.IGraphicsStatsProxy@fd56d50
+09-20 11:01:13.699  8698  8698 D HookManager: hook: com.gbox.fake.service.libcore.OsProxy@10e1b49
+09-20 11:01:13.700  8698  8698 D HookManager: hook: com.gbox.fake.service.HCallbackProxy@4ac0e7c
+09-20 11:01:13.701  8698  8698 D HookManager: hook: com.gbox.fake.service.IJobServiceProxy@1d9758b
+09-20 11:01:13.701  8698  8698 D HookManager: hook: com.gbox.fake.service.IConnectivityManagerProxy@cf5b114
+09-20 11:01:13.703  8698  8698 D HookManager: hook: com.gbox.fake.service.IVpnManagerProxy@d07545f
+09-20 11:01:13.706  8698  8698 D HookManager: hook: com.gbox.fake.service.IPermissionManagerProxy@ce36998
+09-20 11:01:13.707  8698  8698 D HookManager: hook: com.gbox.fake.service.IDeviceIdentifiersPolicyProxy@625802d
+09-20 11:01:13.707  8698  8698 D HookManager: hook: com.gbox.fake.service.IWifiManagerProxy@bf3c9ae
+09-20 11:01:13.710  8698  8698 D HookManager: hook: com.gbox.fake.service.IStorageManagerProxy@7e8956b
+09-20 11:01:13.711  8698  8698 D HookManager: hook: com.gbox.fake.service.ITelephonyRegistryProxy@b674974
+09-20 11:01:13.712  8698  8698 D HookManager: hook: com.gbox.fake.service.IDisplayManagerProxy@fe3b799
+09-20 11:01:13.713  8698  8698 D HookManager: hook: com.gbox.fake.service.IStorageStatsManagerProxy@85393f8
+09-20 11:01:13.715  8698  8698 D HookManager: hook: com.gbox.fake.service.IWifiScannerProxy@22a990d
+09-20 11:01:13.717  8698  8698 D HookManager: hook error: com.gbox.fake.service.IWifiScannerProxy@22a990d
+09-20 11:01:13.717  8698  8698 D HookManager: hook: com.gbox.fake.service.IAppWidgetManagerProxy@3d350c2
+09-20 11:01:13.719  8698  8698 D HookManager: hook: com.gbox.fake.service.IAccessibilityManagerProxy@5bd652f
+09-20 11:01:13.721  8698  8698 D HookManager: hook: com.gbox.fake.service.IActivityTaskManagerProxy@ae999e6
+09-20 11:01:13.723  8698  8698 D HookManager: hook: com.gbox.fake.service.IAccountManagerProxy@c0f679
+09-20 11:01:13.724  8698  8698 D HookManager: hook: com.gbox.fake.service.IMediaRouterServiceProxy@61059ca
+09-20 11:01:13.727  8698  8698 D HookManager: hook: com.gbox.fake.service.IWindowManagerProxy@edacc17
+09-20 11:01:13.729  8698  8698 D HookManager: hook: com.gbox.fake.service.INotificationManagerProxy@6e1d46e
+09-20 11:01:13.730  8698  8698 D HookManager: hook: com.gbox.fake.service.INetworkManagementServiceProxy@66621a5
+09-20 11:01:13.731  8698  8698 D HookManager: hook: com.gbox.fake.service.IUserManagerProxy@d3c0346
+09-20 11:01:13.732  8698  8698 D HookManager: hook: com.gbox.fake.service.IPhoneSubInfoProxy@6e90ea3
+09-20 11:01:13.733  8698  8698 D HookManager: hook: com.gbox.fake.delegate.AppInstrumentation@622351e
+09-20 11:01:13.733  8698  8698 D HookManager: hook: com.gbox.fake.service.IAutofillManagerProxy@bf3f1ff
+09-20 11:01:13.734  8698  8698 D HookManager: hook: com.gbox.fake.service.IActivityManagerProxy@939f8b8
+09-20 11:01:13.736  8698  8698 D HookManager: hook: com.gbox.fake.service.IPersistentDataBlockServiceProxy@2269acd
+09-20 11:01:13.738  8698  8698 D HookManager: hook error: com.gbox.fake.service.IPersistentDataBlockServiceProxy@2269acd
+09-20 11:01:13.738  8698  8698 D HookManager: hook: com.gbox.fake.service.context.ContentServiceProxy@c1726d0
+09-20 11:01:13.739  8698  8698 D HookManager: hook: com.gbox.fake.service.IMediaSessionManagerProxy@ae95685
+09-20 11:01:13.741  8698  8698 D HookManager: hook: com.gbox.fake.service.ISystemUpdateProxy@83e9ca6
+09-20 11:01:13.754  8698  8698 D HookManager: hook error: com.gbox.fake.service.ISystemUpdateProxy@83e9ca6
+09-20 11:01:13.754  8698  8698 D HookManager: hook: com.gbox.fake.service.IDevicePolicyManagerProxy@4c776e7
+09-20 11:01:13.760  8698  8698 D HookManager: hook: com.gbox.fake.service.IPowerManagerProxy@ee9e400
+09-20 11:01:13.761  8698  8698 D HookManager: hook: com.gbox.fake.service.IContextHubServiceProxy@785eaf5
+09-20 11:01:13.763  8698  8698 D HookManager: hook error: com.gbox.fake.service.IContextHubServiceProxy@785eaf5
+09-20 11:01:13.763  8698  8698 D HookManager: hook: com.gbox.fake.service.IBluetoothManagerProxy@ae03318
+09-20 11:01:13.763  8698  8698 D HookManager: hook: com.gbox.fake.service.ITelephonyManagerProxy@d8d83ad
+09-20 11:01:13.767  8698  8698 D HookManager: hook: com.gbox.fake.service.ILauncherAppsProxy@4389f2e
+--------- beginning of system
+09-20 11:01:13.770  8698  8698 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:13.882  8698  8698 D Settings: loaded Package: com.twitter.android
+09-20 11:01:13.905  8698  8698 D Settings: loaded Package: com.pubg.imobile
+09-20 11:01:13.909  8698  8698 D BroadcastManager: register: com.pubg.imobile, size: 16
+09-20 11:01:13.923  8698  8698 D BroadcastManager: register: com.twitter.android, size: 19
+09-20 11:01:13.964  8698  8698 D ActivityThread: Loading provider com.sarkar.cheats.SystemCallProvider: com.gbox.core.system.SystemCallProvider
+09-20 11:01:13.964  8698  8698 D SystemCallProvider: call: VM, Bundle[{_B_|_server_name_=package_manager}]
+09-20 11:01:13.964  8698  8698 D GBoxCore: getService: package_manager, com.gbox.core.system.pm.BPackageManagerService@44d644b
+09-20 11:01:13.967  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+09-20 11:01:13.967  8638  8638 D GBoxCore: getService: activity_manager, android.os.BinderProxy@de34cdf
+09-20 11:01:13.967  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+09-20 11:01:13.968  8638  8638 D GBoxCore: getService: job_manager, android.os.BinderProxy@eaddd2c
+09-20 11:01:13.968  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-20 11:01:13.968  8638  8638 D GBoxCore: getService: package_manager, android.os.BinderProxy@572c3f5
+09-20 11:01:13.968  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-20 11:01:13.968  8638  8638 D GBoxCore: getService: storage_manager, android.os.BinderProxy@e10458a
+09-20 11:01:13.969  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+09-20 11:01:13.969  8638  8638 D GBoxCore: getService: user_manager, android.os.BinderProxy@4d9d7fb
+09-20 11:01:13.969  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-20 11:01:13.969  8638  8638 D GBoxCore: getService: xposed_manager, android.os.BinderProxy@7b1a018
+09-20 11:01:13.969  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+09-20 11:01:13.969  8638  8638 D GBoxCore: getService: account_manager, android.os.BinderProxy@ff8aa71
+09-20 11:01:13.970  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+09-20 11:01:13.970  8638  8638 D GBoxCore: getService: location_manager, android.os.BinderProxy@5353056
+09-20 11:01:13.970  8698  8721 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+09-20 11:01:13.970  8638  8638 D GBoxCore: getService: notification_manager, android.os.BinderProxy@4e3f8d7
+09-20 11:01:13.970  8638  8638 I Quality : ActivityThread: callApplicationOnCreate delay 470 com.sarkar.cheats 8638
+09-20 11:01:13.972  8638  8638 I Quality : ActivityThread: bindApplication delay 611 com.sarkar.cheats 8638
+09-20 11:01:13.974  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:13.980  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:13.982  8638  8830 D libMEOW : meow new tls: 0x71b26f3f00
+09-20 11:01:13.982  8638  8830 D libMEOW : meow reload base cfg path: na
+09-20 11:01:13.982  8638  8830 D libMEOW : meow reload overlay cfg path: na
+09-20 11:01:13.990  8638  8830 E QT      : [QT]file does not exist
+09-20 11:01:13.991  8638  8830 D libMEOW : applied 1 plugins for [com.sarkar.cheats]:
+09-20 11:01:13.991  8638  8830 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071a176b300
+09-20 11:01:13.992  8638  8830 D libMEOW : rebuild call chain: 0x71b27278c0
+09-20 11:01:13.992  8638  8830 D libMEOW : meow delete tls: 0x71b26f3f00
+09-20 11:01:14.090  8638  8638 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+09-20 11:01:14.107  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: Unknow feature:IOplusTextViewRTLUtilForUG
+09-20 11:01:14.139  8638  8638 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+09-20 11:01:14.142  8638  8638 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10326; state: DISABLED
+09-20 11:01:14.143  8638  8638 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10326; state: ENABLED
+09-20 11:01:14.152  8638  8638 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+09-20 11:01:14.152  8638  8638 D ScrollOptimizationHelper: will not debug for debug is false
+09-20 11:01:14.152  8638  8638 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10326; state: ENABLED
+09-20 11:01:14.152  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.152  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.152  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.156  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.156  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.156  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:14.161  8638  8638 D OplusInputMethodUtil: init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+09-20 11:01:14.161  8638  8638 D OplusInputMethodUtil: updateDebugToClass InputMethodManager.DEBUG = false
+09-20 11:01:14.161  8638  8638 D OplusInputMethodUtil: updateDebugToClass ImeFocusController.DEBUG = false
+09-20 11:01:14.161  8638  8638 D OplusInputMethodUtil: updateDebugToClass BaseInputConnection.DEBUG = false
+09-20 11:01:14.164  8638  8638 I SurfaceFactory: [static] sSurfaceFactory = com.mediatek.view.impl.SurfaceFactoryImpl@849b052
+09-20 11:01:14.165  8638  8638 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+09-20 11:01:14.165  8638  8638 D ExtensionsLoader: Opened libguiextimpl.so
+09-20 11:01:14.167  8638  8638 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10326; state: DISABLED
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [FRTCConfigManager]: initFrameRateConfig: 
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [FRTCConfigManager]: 	levels: [120, 60]
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [FRTCConfigManager]: 	thresholds: [200]
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [FRTCConfigManager]: 	scrollbar fade frame rate: 0
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [FRTCConfigManager]: FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.sarkar.cheats, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
+09-20 11:01:14.170  8638  8638 I DynamicFramerate [DynamicFrameRateController]: init info: mPackageName = com.sarkar.cheats, mIsEnabled = false
+09-20 11:01:14.170  8638  8638 D WindowManager: Add to mViews: DecorView@c853f23[StartActivity],pkg= com.sarkar.cheats
+09-20 11:01:14.171  8638  8638 W OpenGLRenderer: Unknown dataspace 0
+09-20 11:01:14.171  8638  8828 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+09-20 11:01:14.174  8638  8828 D ExtensionsLoader: Opened libhwuiextimpl.so
+09-20 11:01:14.174  8638  8638 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+09-20 11:01:14.174  8638  8638 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+09-20 11:01:14.192  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:14.201  8638  8856 D TrafficStats: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+09-20 11:01:14.202  8638  8638 D ScrollOptim [SceneManager]: updateCurrentActivity: mCurrentActivityName=com.gloader.activity.StartActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+09-20 11:01:14.202  8638  8638 D ActivityThread: ComponentInfo{com.sarkar.cheats/com.gloader.activity.StartActivity} checkFinished=false 2
+09-20 11:01:14.203  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:14.204  8638  8693 I PowerHalWrapper: PowerHalWrapper.getInstance 
+09-20 11:01:14.206  8638  8638 D WindowManager: Add to mViews: DecorView@ed2baf3[StartActivity],pkg= com.sarkar.cheats
+09-20 11:01:14.211  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:14.212  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:14.212  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:14.213  8638  8638 I Choreographer: Skipped 65 frames!  The application may be doing too much work on its main thread.
+09-20 11:01:14.213  8638  8638 I Quality : Skipped: false 0 cost 10.457153 refreshRate 10934550 bit true processName com.sarkar.cheats
+09-20 11:01:14.214  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@bf3c9ae
+09-20 11:01:14.227  8638  8638 D BufferQueueConsumer: [](id:21be00000000,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:14.229  8638  8638 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+09-20 11:01:14.229  8638  8638 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+09-20 11:01:14.233  8638  8828 D libMEOW : meow new tls: 0x7139ef6c80
+09-20 11:01:14.233  8638  8828 D libMEOW : applied 1 plugins for [com.sarkar.cheats]:
+09-20 11:01:14.233  8638  8828 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071a176b300
+09-20 11:01:14.233  8638  8828 D libMEOW : rebuild call chain: 0x7139f0f440
+09-20 11:01:14.240  8638  8828 E OpenGLRenderer: Device claims wide gamut support, cannot find matching config, error = EGL_SUCCESS
+09-20 11:01:14.240  8638  8828 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+09-20 11:01:14.254  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:14.255  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.sarkar.cheats/com.gloader.activity.StartActivity)/@0xc7387e5,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:14.257  8638  8828 D MAGT_SYNC_FRAME: MAGT Sync: MAGT is not supported. Disabling Sync.
+09-20 11:01:14.263  8638  8828 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+09-20 11:01:14.267  8638  8828 I mali    : [DebugProp] GPU Debug-Mechanism Disable !
+09-20 11:01:14.287  8638  8828 D BLASTBufferQueue: [VRI[StartActivity]#0](f:0,a:1) acquireNextBufferLocked size=812x360 mFrameNumber=1 applyTransaction=true mTimestamp=703131360421601(auto) mPendingTransactions.size=0 graphicBufferId=37099927502848 transform=0
+09-20 11:01:14.287  8638  8828 D VRI[StartActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:14.287  8638  8638 D VRI[StartActivity]: draw finished.
+09-20 11:01:14.287  8638  8638 D VRI[StartActivity]: reportDrawFinished
+09-20 11:01:14.288  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:14.288  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@38e530c
+09-20 11:01:14.289  8638  8638 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.sarkar.cheats/com.gloader.activity.StartActivity
+09-20 11:01:14.305  8638  8666 I OpenGLRenderer: Davey! duration=795ms; Flags=1, FrameTimelineVsyncId=301384261, IntendedVsync=703130565927214, Vsync=703131276672964, InputEventId=0, HandleInputStart=703131287858831, AnimationStart=703131287860985, PerformTraversalsStart=703131288125062, DrawStart=703131329462524, FrameDeadline=703130585927214, FrameInterval=703131287262831, FrameStartTime=10934550, SyncQueued=703131330357908, SyncStart=703131330603139, IssueDrawCommandsStart=703131331745062, SwapBuffers=703131358625370, FrameCompleted=703131361238216, DequeueBufferDuration=5624615, QueueBufferDuration=658769, GpuCompleted=703131360371755, SwapBuffersCompleted=703131361238216, DisplayPresentTime=-5115944142878276344, CommandSubmissionCompleted=703131358625370, 
+09-20 11:01:14.307  8638  8638 D VRI[StartActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(720, 1612), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1612, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][720,1612] display=[0,0][720,1612] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
+09-20 11:01:14.307  8638  8638 D VRI[StartActivity]:   fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+09-20 11:01:14.307  8638  8638 D VRI[StartActivity]:   pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
+09-20 11:01:14.307  8638  8638 D VRI[StartActivity]:   bhv=DEFAULT
+09-20 11:01:14.307  8638  8638 D VRI[StartActivity]:   fitSides= CLP[ ]}
+09-20 11:01:14.307  8638  8638 W VRI[StartActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1612), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+09-20 11:01:14.307  8638  8638 D BufferQueueConsumer: [](id:21be00000001,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:14.309  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:14.310  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.sarkar.cheats/com.gloader.activity.StartActivity)/@0x22a990d,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:14.317  8638  8828 D BLASTBufferQueue: [VRI[StartActivity]#1](f:0,a:1) acquireNextBufferLocked size=720x1612 mFrameNumber=1 applyTransaction=true mTimestamp=703131390478293(auto) mPendingTransactions.size=0 graphicBufferId=37099927502854 transform=0
+09-20 11:01:14.317  8638  8828 D VRI[StartActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:14.318  8638  8638 D VRI[StartActivity]: draw finished.
+09-20 11:01:14.318  8638  8638 D VRI[StartActivity]: reportDrawFinished
+09-20 11:01:14.318  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:14.321  8638  8666 I OpenGLRenderer: Davey! duration=825ms; Flags=1, FrameTimelineVsyncId=301384261, IntendedVsync=703130565927214, Vsync=703131276672964, InputEventId=0, HandleInputStart=703131287858831, AnimationStart=703131287860985, PerformTraversalsStart=703131288125062, DrawStart=703131385100447, FrameDeadline=703130585927214, FrameInterval=703131287262831, FrameStartTime=16339411, SyncQueued=703131385456755, SyncStart=703131385608985, IssueDrawCommandsStart=703131385711216, SwapBuffers=703131388861985, FrameCompleted=703131391278908, DequeueBufferDuration=779000, QueueBufferDuration=628000, GpuCompleted=703131391068062, SwapBuffersCompleted=703131391278908, DisplayPresentTime=-6246958916202180620, CommandSubmissionCompleted=703131388861985, 
+09-20 11:01:14.324  8638  8638 I Quality : Skipped: false 5 cost 91.1805 refreshRate 16342383 bit true processName com.sarkar.cheats
+09-20 11:01:14.337  8638  8638 D VRI[StartActivity]: onFocusEvent true
+09-20 11:01:14.339  8638  8828 D VRI[StartActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=4 didProduceBuffer=true syncBuffer=false
+09-20 11:01:14.339  8638  8828 D VRI[StartActivity]: draw finished.
+09-20 11:01:14.339  8638  8828 D VRI[StartActivity]: reportDrawFinished
+09-20 11:01:14.389  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.404  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.421  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.436  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.452  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.472  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.486  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.502  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.518  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.535  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.551  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.567  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.584  8638  8856 V CatalogClient: { "Version" : 40, "Kgo" : true }
+09-20 11:01:14.584  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:14.584  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity,window dying
+09-20 11:01:14.585  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity,unregisterSystemUIBroadcastReceiver 
+09-20 11:01:14.585  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@90f6fe9
+09-20 11:01:14.585  8638  8638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8d4134f
+09-20 11:01:14.586  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x71543d2000, mContext=0x7139e97540
+09-20 11:01:14.586  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x728a31b480, surface=NULL
+09-20 11:01:14.599  8638  8889 D BLASTBufferQueue: [VRI[StartActivity]#0](f:0,a:3) destructor()
+09-20 11:01:14.599  8638  8889 D BufferQueueConsumer: [VRI[StartActivity]#0(BLAST Consumer)0](id:21be00000000,api:0,p:-1,c:8638) disconnect
+09-20 11:01:14.617  8638  8638 I Quality : Skipped: true 1 cost 25.63157 refreshRate 16334726 bit true processName com.sarkar.cheats
+09-20 11:01:14.619  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:14.620  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:14.620  8638  8638 D ScrollOptim [SceneManager]: updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+09-20 11:01:14.635  8638  8638 D VRI[StartActivity]: onFocusEvent true
+09-20 11:01:14.636  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:14.637  8638  8898 D libMEOW : meow new tls: 0x71b2798c00
+09-20 11:01:14.637  8638  8898 D libMEOW : applied 1 plugins for [com.sarkar.cheats]:
+09-20 11:01:14.637  8638  8898 D libMEOW :   plugin 1: [libMEOW_gift.so]: 0xb4000071a176b300
+09-20 11:01:14.638  8638  8898 D libMEOW : rebuild call chain: 0x71b27b1c40
+09-20 11:01:14.638  8638  8898 D libMEOW : meow delete tls: 0x71b2798c00
+09-20 11:01:14.640  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:14.671  8638  8638 V TextView: notifyAutoFillManagerAfterTextChanged
+09-20 11:01:14.671  8638  8638 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+09-20 11:01:14.672  8638  8638 V TextView: notifyAutoFillManagerAfterTextChanged
+09-20 11:01:14.672  8638  8638 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+09-20 11:01:14.682  8638  8638 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10326; state: DISABLED
+09-20 11:01:14.688  8638  8638 V TextView: notifyAutoFillManagerAfterTextChanged
+09-20 11:01:14.688  8638  8638 V AutofillManager: notifyValueChanged(1073741824): ignoring on state UNKNOWN
+09-20 11:01:14.691  8638  8638 D ScrollOptim [SceneManager]: updateCurrentActivity: mCurrentActivityName=com.gloader.activity.LoginActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+09-20 11:01:14.691  8638  8638 D ActivityThread: ComponentInfo{com.sarkar.cheats/com.gloader.activity.LoginActivity} checkFinished=false 2
+09-20 11:01:14.691  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:14.693  8638  8638 D WindowManager: Add to mViews: DecorView@a230caf[LoginActivity],pkg= com.sarkar.cheats
+09-20 11:01:14.706  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:14.707  8638  8638 D VRI[StartActivity]: onFocusEvent false
+09-20 11:01:14.709  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@8fa39a
+09-20 11:01:14.716  8638  8638 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.sarkar.cheats/com.gloader.activity.LoginActivity
+09-20 11:01:14.727  8638  8638 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(720, 1612), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:720, requestedHeight:1612, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][720,1612] display=[0,0][720,1612] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
+09-20 11:01:14.727  8638  8638 D VRI[LoginActivity]:   fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+09-20 11:01:14.727  8638  8638 D VRI[LoginActivity]:   pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
+09-20 11:01:14.727  8638  8638 D VRI[LoginActivity]:   bhv=DEFAULT
+09-20 11:01:14.727  8638  8638 D VRI[LoginActivity]:   fitSides= CLP[ ]}
+09-20 11:01:14.727  8638  8638 W VRI[LoginActivity]: updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1612), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+09-20 11:01:14.727  8638  8638 D BufferQueueConsumer: [](id:21be00000002,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:14.729  8638  8638 D AutofillManager: notifyViewEnteredForFillDialog:1073741824
+09-20 11:01:14.730  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:14.731  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.sarkar.cheats/com.gloader.activity.LoginActivity)/@0xf8d76bb,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:14.759  8638  8828 D BLASTBufferQueue: [VRI[LoginActivity]#2](f:0,a:1) acquireNextBufferLocked size=720x1612 mFrameNumber=1 applyTransaction=true mTimestamp=703131832297985(auto) mPendingTransactions.size=0 graphicBufferId=37099927502860 transform=0
+09-20 11:01:14.759  8638  8828 D VRI[LoginActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:14.760  8638  8638 D VRI[LoginActivity]: draw finished.
+09-20 11:01:14.760  8638  8638 D VRI[LoginActivity]: reportDrawFinished
+09-20 11:01:14.761  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:14.761  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:14.762  8638  8638 D ResourcesManagerExtImpl: applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+09-20 11:01:14.767  8638  8638 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{fc5256d V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout viewInfo = },pkg= com.sarkar.cheats
+09-20 11:01:14.776  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:14.777  8638  8638 I Quality : Skipped: false 3 cost 54.875805 refreshRate 16338471 bit true processName com.sarkar.cheats
+09-20 11:01:14.778  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@ab829ee
+09-20 11:01:14.804  8638  8638 D BufferQueueConsumer: [](id:21be00000003,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:14.806  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:14.813  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x807c708,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:14.824  8638  8828 D BLASTBufferQueue: [VRI[Toast]#3](f:0,a:1) acquireNextBufferLocked size=474x162 mFrameNumber=1 applyTransaction=true mTimestamp=703131897810601(auto) mPendingTransactions.size=0 graphicBufferId=37099927502871 transform=0
+09-20 11:01:14.824  8638  8828 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:14.824  8638  8638 D VRI[Toast]: draw finished.
+09-20 11:01:14.824  8638  8638 D VRI[Toast]: reportDrawFinished
+09-20 11:01:14.824  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:14.826  8638  8638 I Quality : Skipped: false 2 cost 38.223095 refreshRate 16337822 bit true processName com.sarkar.cheats
+09-20 11:01:14.839  8638  8828 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+09-20 11:01:14.839  8638  8638 D VRI[Toast]: draw finished.
+09-20 11:01:14.839  8638  8638 D VRI[Toast]: reportDrawFinished
+09-20 11:01:14.943  8638  8638 D VRI[LoginActivity]: onFocusEvent true
+09-20 11:01:15.323  8638  8889 D VRI[StartActivity]: dispatchAppVisibility visible:false
+09-20 11:01:15.328  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x71543d2500, mContext=0x7139ed8200
+09-20 11:01:15.328  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x728a31b5c0, surface=NULL
+09-20 11:01:15.329  8638  8638 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.sarkar.cheats/com.gloader.activity.StartActivity
+09-20 11:01:15.338  8638  8638 D VRI[StartActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1612), mLastSurfaceSize:Point(720, 1612), mWidth:720, mHeight:1612, requestedWidth:720, requestedHeight:1612, transformHint:0, lastTransformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][720,1612] display=[0,0][720,1612] parentFrame=[0,0][0,0]}, params:null
+09-20 11:01:15.339  8638  8638 D BLASTBufferQueue: [VRI[StartActivity]#1](f:0,a:1) destructor()
+09-20 11:01:15.339  8638  8638 D BufferQueueConsumer: [VRI[StartActivity]#1(BLAST Consumer)1](id:21be00000001,api:0,p:-1,c:8638) disconnect
+09-20 11:01:15.340  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:15.340  8638  8638 D VRI[StartActivity]: setWindowStopped stopped:true
+09-20 11:01:15.766  8638  8890 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity,This DecorView@ed2baf3[StartActivity] change focus to false
+09-20 11:01:15.773  8638  8638 V AutofillManager: requestHideFillUi(null): anchor = null
+09-20 11:01:15.853  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:15.869  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:15.888  8638  8638 D OplusInputMethodManagerInternal: get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@1f9af76
+09-20 11:01:15.890  8638  8638 D ViewRootImplExtImpl: MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=515.25, y[0]=715.75, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=703132960, downTime=703132845, deviceId=3, source=0x1002, displayId=0, eventId=666255051 } handled by client, just return
+09-20 11:01:15.890  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:15.906  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.906  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.906  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.908  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.908  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.908  8638  8638 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+09-20 11:01:15.912  8638  8638 D WindowManager: Add to mViews: DecorView@fdf7a5a[LoginActivity],pkg= com.sarkar.cheats
+09-20 11:01:15.923  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:15.924  8638  8638 I Quality : Skipped: false 1 cost 25.901335 refreshRate 16337503 bit true processName com.sarkar.cheats
+09-20 11:01:15.925  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@bd1c181
+09-20 11:01:15.937  8638  8638 D BufferQueueConsumer: [](id:21be00000004,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:15.942  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:15.942  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=com.sarkar.cheats/com.gloader.activity.LoginActivity)/@0x869b414,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:15.944  8638  8890 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity,This DecorView@a230caf[LoginActivity] change focus to true
+09-20 11:01:15.948  8638  8828 D BLASTBufferQueue: [VRI[LoginActivity]#4](f:0,a:1) acquireNextBufferLocked size=812x360 mFrameNumber=1 applyTransaction=true mTimestamp=703133021872755(auto) mPendingTransactions.size=0 graphicBufferId=37099927502872 transform=0
+09-20 11:01:15.948  8638  8828 D VRI[LoginActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:15.948  8638  8638 D VRI[LoginActivity]: draw finished.
+09-20 11:01:15.948  8638  8638 D VRI[LoginActivity]: reportDrawFinished
+09-20 11:01:15.949  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:15.953  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.054  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.070  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.087  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.103  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.120  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.137  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.152  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.169  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.185  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.202  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.219  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.235  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.250  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.267  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.282  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity,window dying
+09-20 11:01:16.282  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity,unregisterSystemUIBroadcastReceiver 
+09-20 11:01:16.282  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@7a7fc98
+09-20 11:01:16.282  8638  8638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@c0ae226
+09-20 11:01:16.284  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.285  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x71543b8080, mContext=0x7122eb5100
+09-20 11:01:16.285  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x7137da9040, surface=NULL
+09-20 11:01:16.298  8638  8889 D BLASTBufferQueue: [VRI[LoginActivity]#4](f:0,a:3) destructor()
+09-20 11:01:16.298  8638  8889 D BufferQueueConsumer: [VRI[LoginActivity]#4(BLAST Consumer)4](id:21be00000004,api:0,p:-1,c:8638) disconnect
+09-20 11:01:16.303  8638  8638 D VRI[LoginActivity]: onFocusEvent false
+09-20 11:01:16.303  8638  8638 I Quality : Skipped: true 22 cost 372.14795 refreshRate 16337432 bit true processName com.sarkar.cheats
+09-20 11:01:16.308  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.313  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.330  8638  8638 D VRI[LoginActivity]: onFocusEvent true
+09-20 11:01:16.343  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:16.690  8638  8638 D OplusScrollToTopManager: Toast,window dying
+09-20 11:01:16.690  8638  8638 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+09-20 11:01:16.690  8638  8638 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@70d0cf1
+09-20 11:01:16.690  8638  8638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@9448e8f
+09-20 11:01:16.691  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x7137ebf980, mContext=0x71543bdf80
+09-20 11:01:16.691  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x7137da9e00, surface=NULL
+09-20 11:01:16.693  8638  8638 D BLASTBufferQueue: [VRI[Toast]#3](f:0,a:1) destructor()
+09-20 11:01:16.693  8638  8638 D BufferQueueConsumer: [VRI[Toast]#3(BLAST Consumer)3](id:21be00000003,api:0,p:-1,c:8638) disconnect
+09-20 11:01:16.705  8638  8638 D WindowManager: Add to mViews: com.oplus.internal.widget.OplusToastLayout{de620d6 V.E...... ......I. 0,0-0,0 #c020084 oplus:id/oplus_toast_layout viewInfo = },pkg= com.sarkar.cheats
+09-20 11:01:16.713  8638  8638 D InputEventReceiver: Input log is disabled in InputEventReceiver.
+09-20 11:01:16.715  8638  8638 E OplusBracketLog: [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@354872d
+09-20 11:01:16.723  8638  8638 D BufferQueueConsumer: [](id:21be00000005,api:0,p:-1,c:8638) connect: controlledByApp=false
+09-20 11:01:16.726  8638  8828 E OpenGLRenderer: Unable to match the desired swap behavior.
+09-20 11:01:16.727  8638  8638 I SurfaceControl:  setExtendedRangeBrightness sc=Surface(name=Toast)/@0x605c6b0,currentBufferRatio=1.0,desiredRatio=1.0
+09-20 11:01:16.732  8638  8828 D BLASTBufferQueue: [VRI[Toast]#5](f:0,a:1) acquireNextBufferLocked size=295x162 mFrameNumber=1 applyTransaction=true mTimestamp=703133805846601(auto) mPendingTransactions.size=0 graphicBufferId=37099927502878 transform=0
+09-20 11:01:16.732  8638  8828 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+09-20 11:01:16.732  8638  8638 D VRI[Toast]: draw finished.
+09-20 11:01:16.732  8638  8638 D VRI[Toast]: reportDrawFinished
+09-20 11:01:16.733  8638  8638 D ViewRootImplExtImpl: setMaxDequeuedBufferCount: 2
+09-20 11:01:16.733  8638  8638 I Quality : Skipped: false 1 cost 18.056917 refreshRate 16336865 bit true processName com.sarkar.cheats
+09-20 11:01:16.750  8638  8828 D VRI[Toast]: Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false syncBuffer=false
+09-20 11:01:16.750  8638  8638 D VRI[Toast]: draw finished.
+09-20 11:01:16.750  8638  8638 D VRI[Toast]: reportDrawFinished
+09-20 11:01:17.334  8638  8890 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity,This DecorView@a230caf[LoginActivity] change focus to true
+09-20 11:01:17.544  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:17.744  8638  8638 D VRI[LoginActivity]: onFocusEvent false
+09-20 11:01:17.758  8638  8828 I gralloc4: @set_metadata: update dataspace from GM (0x00000000 -> 0x08010000)
+09-20 11:01:18.562  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:18.562  8638  8638 D ScrollOptim [SceneManager]: updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+09-20 11:01:18.562  8638  8889 D VRI[LoginActivity]: dispatchAppVisibility visible:false
+09-20 11:01:18.574  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x71543d5200, mContext=0x71542ea9c0
+09-20 11:01:18.574  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x7137daa080, surface=NULL
+09-20 11:01:18.583  8638  8638 D ViewRootImplExtImpl: wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.sarkar.cheats/com.gloader.activity.LoginActivity
+09-20 11:01:18.593  8638  8638 D VRI[LoginActivity]: relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(720, 1612), mLastSurfaceSize:Point(720, 1612), mWidth:720, mHeight:1612, requestedWidth:720, requestedHeight:1612, transformHint:0, lastTransformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][720,1612] display=[0,0][720,1612] parentFrame=[0,0][0,0]}, params:null
+09-20 11:01:18.594  8638  8638 D BLASTBufferQueue: [VRI[LoginActivity]#2](f:0,a:1) destructor()
+09-20 11:01:18.594  8638  8638 D BufferQueueConsumer: [VRI[LoginActivity]#2(BLAST Consumer)2](id:21be00000002,api:0,p:-1,c:8638) disconnect
+09-20 11:01:18.597  8638  8828 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+09-20 11:01:18.599  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:18.599  8638  8638 D VRI[LoginActivity]: setWindowStopped stopped:true
+09-20 11:01:18.608  8638  8638 W VRI[Toast]: handleResized abandoned!
+09-20 11:01:18.691  8638  8638 D OplusScrollToTopManager: Toast,window dying
+09-20 11:01:18.691  8638  8638 D OplusScrollToTopManager: Toast,unregisterSystemUIBroadcastReceiver 
+09-20 11:01:18.691  8638  8638 D OplusScrollToTopManager: Toast, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@3303be0
+09-20 11:01:18.691  8638  8638 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@5fb7462
+09-20 11:01:18.694  8638  8638 D OpenGLRenderer: RenderProxy::destroy: this=0x71543b9200, mContext=0x7123767140
+09-20 11:01:18.694  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::setSurface: this=0x7137daa1c0, surface=NULL
+09-20 11:01:18.695  8638  8828 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+09-20 11:01:18.695  8638  8638 D BLASTBufferQueue: [VRI[Toast]#5](f:0,a:1) destructor()
+09-20 11:01:18.696  8638  8638 D BufferQueueConsumer: [VRI[Toast]#5(BLAST Consumer)5](id:21be00000005,api:0,p:-1,c:8638) disconnect
+09-20 11:01:18.746  8638  8890 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.LoginActivity,This DecorView@a230caf[LoginActivity] change focus to false
+09-20 11:01:19.417  8638  9145 D ProfileInstaller: Skipping profile installation for com.sarkar.cheats
+09-20 11:01:20.683  8638  8638 D ActivityThread: do gfx trim 40 success
+09-20 11:01:20.683  8638  8828 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: RenderThread::destroyRenderingContext: this=0x71a16c5e80
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x7137da9040
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x7137da9e00
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x7137daa080
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x7137daa1c0
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x728a31b480
+09-20 11:01:20.684  8638  8828 D OpenGLRenderer: SkiaOpenGLPipeline::onContextDestroyed: this=0x728a31b5c0
+09-20 11:01:20.684  8638  8828 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+09-20 11:01:20.685  8638  8828 D OpenGLRenderer: EglManager::destroy: mEglDisplay=0xb4000071a17122c0, mEglContext=0x7139ef1a00, mCurrentSurface=0x0
+09-20 11:01:20.772  8638  8638 D callGcSupression: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+09-20 11:01:20.773  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity,window dying
+09-20 11:01:20.773  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity,unregisterSystemUIBroadcastReceiver 
+09-20 11:01:20.774  8638  8638 D OplusScrollToTopManager: com.sarkar.cheats/com.gloader.activity.StartActivity, unregisterSystemUIBroadcastReceiver failed java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@7682e5b
+09-20 11:01:20.774  8638  8638 W Windo
